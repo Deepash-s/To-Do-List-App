@@ -1,0 +1,91 @@
+* { 
+    padding: 0; 
+    margin: 0; 
+} 
+
+
+body{
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+}
+
+#todolist { 
+    height: 100vh; 
+    width: auto; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    border: 5px solid white; 
+} 
+
+#container { 
+    width: 400px; 
+    height: auto; 
+    background-color: #03dac6; 
+    border-radius: 10px; 
+    border: 2px solid black; 
+} 
+
+nav { 
+    font-family: 'rubik vinyl', sans-serif; 
+    text-align: center; 
+    background-color: aqua; 
+    padding: 5px; 
+    border-radius: 10px 10px 0 0; 
+    margin-bottom: 20px; 
+    border-bottom: 2px solid black; 
+    cursor: pointer; 
+} 
+
+#input { 
+    text-align: center; 
+} 
+
+#input-box { 
+    padding: 6px; 
+    margin: 10px; 
+    border-radius: 10px; 
+    border: 2px solid rgba(0, 0, 0, .65); 
+    color: #333333; 
+    font-size: 1rem; 
+} 
+
+#add-button { 
+    padding: 6px 20px; 
+    border-radius: 10px; 
+    border: 2px solid rgba(0, 0, 0, .65); 
+    font-weight: 900; 
+} 
+
+#input-box:hover { 
+    border: 2px solid black; 
+} 
+
+#add-button:hover { 
+    border: 2px solid black; 
+    cursor: pointer; 
+} 
+
+.task { 
+    list-style-type: none; 
+    display: flex;
+    justify-content:space-between; 
+    align-items: center; 
+    font-size: 1rem; 
+    margin: 20px ;  
+    height: auto;
+    word-wrap: break-word;
+    background-color: cyan;
+    color: darkred;
+    border-radius: 10px;
+    padding: 15px;
+} 
+
+.remove-btn { 
+    background-color: red; 
+    color: white; 
+    border: none; 
+    padding: 7px 10px; 
+    border-radius: 20px; 
+    cursor: pointer; 
+    margin-left: 10px; 
+}
