@@ -74,7 +74,7 @@ nav {
     margin: 20px ;  
     height: auto;
     word-wrap: break-word;
-    white-space: wrap;
+    white-space: normal;
     background-color: cyan;
     color: darkred;
     border-radius: 10px;
